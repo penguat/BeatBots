@@ -1,0 +1,6 @@
+C:\Users\littleds\Documents\Visual Studio 2013\Projects\BotExample\BotExample\bin\Release\BotExample.exe.config
+C:\Users\littleds\Documents\Visual Studio 2013\Projects\BotExample\BotExample\bin\Release\BotExample.exe
+C:\Users\littleds\Documents\Visual Studio 2013\Projects\BotExample\BotExample\bin\Release\BotExample.pdb
+C:\Users\littleds\Documents\Visual Studio 2013\Projects\BotExample\BotExample\obj\Release\BotExample.csprojResolveAssemblyReference.cache
+C:\Users\littleds\Documents\Visual Studio 2013\Projects\BotExample\BotExample\obj\Release\BotExample.exe
+C:\Users\littleds\Documents\Visual Studio 2013\Projects\BotExample\BotExample\obj\Release\BotExample.pdb
