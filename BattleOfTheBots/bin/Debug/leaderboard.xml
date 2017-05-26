@@ -1,0 +1,35 @@
+<?xml version="1.0" standalone="yes"?>
+<DocumentElement>
+  <Leaderboard>
+    <Name>LOPPYBOT</Name>
+    <Wins>5</Wins>
+  </Leaderboard>
+  <Leaderboard>
+    <Name>SUICIDEBOT</Name>
+    <Wins>3</Wins>
+  </Leaderboard>
+  <Leaderboard>
+    <Name>SWAPBOT</Name>
+    <Wins>3</Wins>
+  </Leaderboard>
+  <Leaderboard>
+    <Name>STUPIDBOT</Name>
+    <Wins>2</Wins>
+  </Leaderboard>
+  <Leaderboard>
+    <Name>CHASEBOT</Name>
+    <Wins>2</Wins>
+  </Leaderboard>
+  <Leaderboard>
+    <Name>MIRRORBOT</Name>
+    <Wins>2</Wins>
+  </Leaderboard>
+  <Leaderboard>
+    <Name>Some Bastard</Name>
+    <Wins>1</Wins>
+  </Leaderboard>
+  <Leaderboard>
+    <Name>BOTICELLI</Name>
+    <Wins>1</Wins>
+  </Leaderboard>
+</DocumentElement>
