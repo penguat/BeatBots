@@ -1,1 +1,2 @@
 C:\Users\littleds\Documents\Visual Studio 2013\Projects\BotExample\BotExample\bin\Debug\BotExample.exe.config
+C:\source\bots\penguat\Jnr\BotExample\bin\Debug\BotExample.exe.config
