@@ -7,6 +7,7 @@ using System.Net;
 using System.IO;
 using System.Threading;
 using System.Diagnostics;
+using Common;
 
 namespace BotExample
 {
@@ -95,6 +96,8 @@ namespace BotExample
         private Thread _serverThread;
         private HttpListener _listener;
         private int _port;
+
+        private static readonly IBotAi Bot = new BotAIClass();
         
         public int Port
         {
@@ -136,7 +139,7 @@ namespace BotExample
                 }
                 catch (Exception ex)
                 {
-
+                    Console.WriteLine("Exception " + ex);
                 }
             }
         }
@@ -172,7 +175,7 @@ namespace BotExample
                     {
 
                         StreamWriter sww = new StreamWriter(context.Response.OutputStream);
-                        string responsestr = BotAIClass.GetMove();
+                        string responsestr = Bot.GetMove();
                         Console.WriteLine(string.Format("My move {0}", responsestr));
 
 
@@ -188,7 +191,7 @@ namespace BotExample
                     }
                     else
                     {
-                        BotAIClass.SetLastOpponentsMove(body);
+                        Bot.SetLastOpponentsMove(body);
                         Console.WriteLine(string.Format("Their move {0}", body));
                         context.Response.StatusCode = (int)HttpStatusCode.OK;
                         context.Response.ContentType = "text/plain";
@@ -201,7 +204,6 @@ namespace BotExample
                     }
                     break;
                 }
-                    break;
             }
         }
 
@@ -250,7 +252,7 @@ namespace BotExample
 
             Console.WriteLine(string.Format("START Opponentname={0} Pointstowin={1} Maxrounds={2} Dynamitecount={3}", opponentName, pointToWin, maxRounds, dynamiteCount));
 
-            BotAIClass.SetStartValues(opponentName, pointToWin, maxRounds, dynamiteCount);
+            Bot.SetStartValues(opponentName, pointToWin, maxRounds, dynamiteCount);
         }
 
 
